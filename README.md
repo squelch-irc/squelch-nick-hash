@@ -1,16 +1,16 @@
 # squelch-nick-hash [![Build Status](https://travis-ci.org/rahatarmanahmed/squelch-nick-hash.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/squelch-nick-hash)
-Hashes nicknames to assign color indexes in Squelch.
+Hashes nicknames to assign color indexes in Squelch. Returns an index between 1 and 16, inclusive, from the hash of the passed in nickname.
 
 ## Installing
 `npm install squelch-nick-hash`
 
 ## Example usage
 ```js
-var squelch-nick-hash = require('squelch-nick-hash');
+var nickHash = require('squelch-nick-hash');
 
-// Do whatever you want with 'squelch-nick-hash'!
+nickHash('MyNick') // returns 15
 ```
-    
+
 ## License
 The MIT License (MIT)
 
