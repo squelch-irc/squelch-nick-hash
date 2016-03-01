@@ -1,4 +1,4 @@
-# squelch-nick-hash [![Build Status](https://travis-ci.org/rahatarmanahmed/squelch-nick-hash.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/squelch-nick-hash)
+# squelch-nick-hash [![Build Status](https://travis-ci.org/squelch-irc/squelch-nick-hash.svg?branch=master)](https://travis-ci.org/squelch-irc/squelch-nick-hash)
 Hashes nicknames to assign color indexes in Squelch. Returns an index between 1 and 16, inclusive, from the hash of the passed in nickname.
 
 ## Installing
